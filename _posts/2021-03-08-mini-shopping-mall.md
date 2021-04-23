@@ -450,7 +450,7 @@ loadItems()
   .catch(console.log);
 ```
 
-</details>
+  </details>
 
 ##### Something new to know
 
