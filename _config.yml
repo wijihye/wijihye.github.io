@@ -2,12 +2,11 @@
 title: wijihye
 description: >
   Your description
-author: Your name
-email: your@e.mail
+author: Jihye
+email: wijihye@naver.com
 baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://yourname.github.io' # the base hostname & protocol for your site
-twitter_username: YourTwitter
-github_username: YourGitHub
+url: 'http://localhost:4000' # the base hostname & protocol for your site
+github_username: https://github.com/wijihye
 
 disqus_shortname: YourDisqusShortname
 
