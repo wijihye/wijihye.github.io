@@ -1,25 +1,15 @@
-# Sidey
+# Biu-Jekyll-Theme
 
-Sidey is a simple and minimalistic jekyll blogging theme.
+It is a Jekyll theme based on [butane-jekyll-theme](https://github.com/alexcarpenter/butane-jekyll-theme) by @alexcarpenter
 
-### Features
+## Getting Started
+1. `git clone https://github.com/RedL0tus/Biu-Jekyll-Theme.git`
+2. `cd Biu-Jekyll-Theme`
+3. `rm -rf CHANGELOG.md README.md`
+4. `jekyll serve`
 
-- Responsive design
-- Inline CSS
-- Anchor headings
-- Search
-- Tags & tag pages
-- Security headers (for Netlify hosting)
-- 404 page
-- Compressed CSS and HTML
-- 100/100 score on Lighthouse, Page Speed Insights & Webpagetest
-- Robots.txt
-- Atom & Json feeds
-- Sass
-- Seo optimized (Twitter cards, Facebook Open Graph, Schema.org)
-- Ultra fast (Only ~5kb of CSS)
-- Sidebar navigation
+## Sites using Butane Jekyll Theme
+- [v2bv.win](https://v2bv.win)
 
-### Screenshot
-
-![Screenshot](screenshot.png)
+## Screenshot:
+![Screenshot1](https://img.vim-cn.com/0b/dbf27e6ce44cf17afe049e5420a883bedf53c0.jpg)

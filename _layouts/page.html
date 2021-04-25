@@ -2,10 +2,14 @@
 layout: default
 ---
 
-<section class="post">
-  <h2>{{ page.title }}</h2>
-  {{ content }}
-</section>
-
-
-
+<div class="c-page">
+		<article class="c-article">
+   	 	{% include header.html %}
+    	<div class="c-article__main">
+        {{ content }}
+		{% if page.title != 'Home' %}
+			{% include comment.html %}
+		{% endif %}
+    	</div>
+    	{% include footer.html %}
+</article>

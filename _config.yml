@@ -1,59 +1,31 @@
-site: wijihye
-url: #yoururl
-title: wijihye
-description: 공부한 것 정리하기
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
-author:
-  twitter: #yourusername
-  name: #yourusername
-  avatar:
-  email: #youremail
-  url: #yoururl
-permalink: pretty
+# Site settings
+title: Your site
+description: >
+    Your description
+author: Your name
+email: your@e.mail
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://yourname.github.io" # the base hostname & protocol for your site
+twitter_username: YourTwitter
+github_username:  YourGitHub
 
-baseurl: ''
+disqus_shortname: YourDisqusShortname
 
-highlighter: none
-
-exclude:
-  - .jekyll-cache
-
-compress_html:
-  clippings: all
-  comments: ['<!-- ', ' -->']
-
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title
 sass:
-  sass_dir: _sass
-  style: :compressed
+    style: compressed
 
-plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
+gems:
+  - jemoji
   - jekyll-sitemap
+# - amp-jekyll # Acceletrated Mobile Pages
 
-collections:
-  pages:
-    output: true
-    permalink: /:name
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:slug
+# AMP Settings
+# ampdir: amp/
+# enable_amp: true
 
-defaults:
-  - scope:
-      path: ''
-    values:
-      layout: 'default'
-  - scope:
-      path: ''
-      type: 'pages'
-    values:
-      layout: 'page'
-  - scope:
-      path: ''
-      type: 'posts'
-    values:
-      layout: 'post'
+# Google Analytics
+# google_analytics: UA-XXXXXXXX-X
