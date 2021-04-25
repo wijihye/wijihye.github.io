@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[Algorithm] 백준'
+title: '[Algorithm] 백준 (21-03-29)'
 tags: [study, algorithm]
 ---
 
