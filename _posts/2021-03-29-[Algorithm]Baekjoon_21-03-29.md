@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[Algorithm] 백준 (21-03-29)'
-tags: [study, algorithm]
+tags: [study, baekjoon, algorithm]
 ---
 
 #### [Algorithm]: 백준
