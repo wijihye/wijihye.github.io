@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 #### mini-shopping-mall
 
 Date: Mar 8, 2021
