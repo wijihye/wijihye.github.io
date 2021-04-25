@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[study] mini-shopping-mall'
-tags: [study], [simple-game]
+tags: [study, simple-game]
 ---
 
 #### mini-shopping-mall

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[softy-pinko] Responsive web1'
-tags: [study], [responsive_web], [softy-pinko]
+tags: [study, responsive_web, softy-pinko]
 ---
 
 #### [softy pinko] Responsive web1

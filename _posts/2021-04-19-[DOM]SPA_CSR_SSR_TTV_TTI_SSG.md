@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[DOM] SPA / CSR / SSR / TTV, TTI / SSG'
-tags: [study], [DOM]
+tags: [study, dom, document_object_model]
 ---
 
 #### [DOM] SPA / CSR / SSR / TTV, TTI / SSG

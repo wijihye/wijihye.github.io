@@ -1,7 +1,7 @@
 ---
 layout: post
 title: '[softy-pinko] JS active nav menus'
-tags: [study], [responsive_web], [softy-pinko]
+tags: [study, responsive_web, softy-pinko]
 ---
 
 #### [softy pinko] JS: active nav menus when scrolling
