@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [softy-pinko] JS active_nav
+title: '[softy-pinko] JS active_nav'
 tags: [study], [responsive_web], [softy-pinko]
 ---
 

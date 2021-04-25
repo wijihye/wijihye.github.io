@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [softy-pinko] JS toggle_menu
+title: '[softy-pinko] JS toggle_menu'
 tags: [study], [responsive_web], [softy-pinko]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [softy-pinko] JS animations
+title: '[softy-pinko] JS animations'
 tags: [study], [responsive_web], [softy-pinko]
 ---
 

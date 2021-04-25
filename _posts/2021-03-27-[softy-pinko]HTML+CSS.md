@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [softy-pinko] HTML + CSS
+title: '[softy-pinko] HTML + CSS'
 tags: [study], [responsive_web], [softy-pinko]
 ---
 

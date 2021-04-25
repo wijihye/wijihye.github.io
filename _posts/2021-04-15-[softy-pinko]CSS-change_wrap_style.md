@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [softy-pinko] CSS change wrap style
+title: '[softy-pinko] CSS change wrap style'
 tags: [study], [responsive_web], [softy-pinko]
 ---
 

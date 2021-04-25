@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [DOM] SPA / CSR / SSR / TTV, TTI / SSG
+title: '[DOM] SPA / CSR / SSR / TTV, TTI / SSG'
 tags: [study], [DOM]
 ---
 

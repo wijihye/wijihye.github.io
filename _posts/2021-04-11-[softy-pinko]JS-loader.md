@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [softy-pinko] JS loader
+title: '[softy-pinko] JS loader'
 tags: [study], [responsive_web], [softy-pinko]
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[study] mini-shopping-mall"
+title: '[study] mini-shopping-mall'
 tags: [study], [simple-game]
 ---
 

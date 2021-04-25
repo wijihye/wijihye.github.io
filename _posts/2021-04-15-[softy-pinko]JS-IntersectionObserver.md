@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [softy-pinko] JS IntersectionObserver
+title: '[softy-pinko] JS IntersectionObserver'
 tags: [study], [responsive_web], [softy-pinko]
 ---
 
