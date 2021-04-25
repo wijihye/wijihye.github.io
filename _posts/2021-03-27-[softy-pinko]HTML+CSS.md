@@ -1,3 +1,9 @@
+---
+layout: post
+title: [softy-pinko] HTML + CSS
+tags: [study], [responsive_web], [softy-pinko]
+---
+
 #### [softy pinko] HTML + CSS
 
 Date: Mar 27, 2021

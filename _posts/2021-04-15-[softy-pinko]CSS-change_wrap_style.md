@@ -1,3 +1,9 @@
+---
+layout: post
+title: [softy-pinko] CSS change wrap style
+tags: [study], [responsive_web], [softy-pinko]
+---
+
 #### [softy pinko] CSS: change wrap style
 
 Date: Apr 15, 2021

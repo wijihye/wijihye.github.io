@@ -1,3 +1,9 @@
+---
+layout: post
+title: [Algorithm] 백준
+tags: [Algorithm]
+---
+
 #### [Algorithm]: 백준
 
 Date: Mar 23, 2021

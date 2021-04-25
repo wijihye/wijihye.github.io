@@ -1,5 +1,7 @@
 ---
 layout: post
+title: [study] mini-shopping-mall
+tags: [study], [simple-game]
 ---
 
 #### mini-shopping-mall
@@ -24,72 +26,51 @@ Show list of three types of clothes or three colors of clothes
 
 ##### Codes
 
-<details><summray>HTML</summray>
+#### HTML
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shopping</title>
-    <script defer src="main.js"></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- Logo -->
-    <img src="img/logo.png" alt="logo image" class="logo" />
-
-    <!-- Buttons -->
-    <div class="buttons">
-      <button class="btn">
-        <img
-          src="img/blue_t.png"
-          alt="tshirt"
-          class="imgBtn"
-          data-key="type"
-          data-value="tshirt"
-        />
-      </button>
-      <button class="btn">
-        <img
-          src="img/blue_p.png"
-          alt="pants"
-          class="imgBtn"
-          data-key="type"
-          data-value="pants"
-        />
-      </button>
-      <button class="btn">
-        <img
-          src="img/blue_s.png"
-          alt="skirt"
-          class="imgBtn"
-          data-key="type"
-          data-value="skirt"
-        />
-      </button>
-      <button class="btn colorBtn blue" data-key="color" data-value="blue">
-        Blue
-      </button>
-      <button class="btn colorBtn yellow" data-key="color" data-value="yellow">
-        Yellow
-      </button>
-      <button class="btn colorBtn pink" data-key="color" data-value="pink">
-        Pink
-      </button>
-    </div>
-
-    <!-- Items -->
-    <ul class="items"></ul>
-  </body>
-</html>
+	<html lang="en">
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <script defer src="main.js"></script>
+            <link rel="stylesheet" href="style.css" />
+        </head>
+        <body>
+            <!-- Logo -->
+            <img src="img/logo.png" alt="logo image" class="logo" />
+            <!-- Buttons-->
+            <div class="buttons">
+                <button class="btn">
+                    <img src="img/blue_t.png" alt="tshirt" class="imgBtn" data-key="type" data-value="tshirt"/>
+               </button>
+                <button class="btn">
+                    <img src="img/blue_p.png"alt="pants"class="imgBtn"data-key="type"data-value="pants"/>
+                </button>
+                <button class="btn">
+                    <img src="img/blue_s.png"alt="skirt"class="imgBtn"data-key="type"
+    data-value="skirt"/>
+                </button>
+                <button class-"btn colorBtn blue" data-key="color" data-value="blue">
+                    Blue
+                </button>
+                <button class="btn colorBtn yellow" data-key="color" data-value="yellow">
+                    Yellow
+                </button>
+                <button class="btn colorBtn pink" data-key="color" data-value="pink">
+                    Pink
+                </button>
+            </div>
+            <!-- Items -->
+            <ul class="items">
+            </ul>
+        </body>
+    </html>
 ```
 
-  </details>
-
-<details><summary>css</summary>
+#### CSS
 
 ```css
 @import '/reset.css';
@@ -202,9 +183,7 @@ body {
 }
 ```
 
-  </details>
-
-<details><summary>js (version of mine)</summary>
+### JS - my.ver
 
 ```jsx
 'use strict';
@@ -295,9 +274,7 @@ loadItems()
   .catch(console.log);
 ```
 
-  </details>
-
-<details><summary>js (version of teacher)</summary>
+#### JS - teacher.ver
 
 ```jsx
 'use strict';
@@ -359,9 +336,7 @@ loadItems()
   .catch(console.log);
 ```
 
-  </details>
-
-##### Review
+#### Review
 
 Two codes are different on the way of filtering.
 
@@ -371,7 +346,7 @@ In teacher's case, using exist functions and two of html datasets. Her code is s
 
 So, I change the way of filtering. That is using css display:none!
 
-<details><summary>using css code (js)</summary>
+##### Using CSS code(js)
 
 ```jsx
 'use strict';
@@ -438,8 +413,8 @@ function visibleItems(event, itemElements) {
 // Update items that should be seen
 function updateItems(itemElements, key, value) {
   itemElements.forEach((element) => {
-    if (element.dataset[key] === valu*e) element.classList.remove('invisible');
-    else element.classList.add('invis*ible');
+    if (element.dataset[key] === value) element.classList.remove('invisible');
+    else element.classList.add('invisible');
   });
 }
 
@@ -454,9 +429,8 @@ loadItems()
   .catch(console.log);
 ```
 
-  </details>
-
 ##### Something new to know
 
 - append(...node): Change DOMString or Node to HTML Element
+
 - how to filter items as many ways

@@ -1,3 +1,9 @@
+---
+layout: post
+title: [softy-pinko] JS animations
+tags: [study], [responsive_web], [softy-pinko]
+---
+
 #### [softy pinko] JS: animations
 
 Date: Apr 12, 2021

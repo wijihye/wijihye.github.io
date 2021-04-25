@@ -1,3 +1,9 @@
+---
+layout: post
+title: [softy-pinko] JS toggle_menu
+tags: [study], [responsive_web], [softy-pinko]
+---
+
 #### [softy pinko] JS: toggle menu
 
 Date: Apr 7, 2021

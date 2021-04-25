@@ -1,3 +1,9 @@
+---
+layout: post
+title: [softy-pinko] JS active nav menus
+tags: [study], [responsive_web], [softy-pinko]
+---
+
 #### [softy pinko] JS: active nav menus when scrolling
 
 Date: Apr 15, 2021
@@ -19,6 +25,6 @@ Date: Apr 15, 2021
        - 맨 아래에 있는 것을 계산하기 위해 window.innerHeight와 window.scrollY를 더한 것을 반올림한 것과 document.body.clientHeight가 같으면(문서 전체 길이: 고정=== 현재 스크롤 길이: 바뀜 + 화면 너비: 고정)
        - selectedMenuIdx가 지정되면 함수를 호출하여 'selected' class를 제거하거나 추가한다. 추가 및 제거를 용이하게 하기 위하여 현재 'selected'가 있는 element를 전역변수에 함께 저장한다.
 
-   2. 4/15 github commit
+2. 4/15 github commit
 
    [https://github.com/wijihye/Web-Designs/commit/10600c9ab4b5596db8558afc17885f5af611fb5c](https://github.com/wijihye/Web-Designs/commit/10600c9ab4b5596db8558afc17885f5af611fb5c)

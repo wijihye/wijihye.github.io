@@ -1,3 +1,9 @@
+---
+layout: post
+title: [softy-pinko] JS loader
+tags: [study], [responsive_web], [softy-pinko]
+---
+
 #### [softy pinko] JS: loader
 
 Date: Apr 11, 2021

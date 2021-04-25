@@ -1,3 +1,9 @@
+---
+layout: post
+title: [softy-pinko] JS active_nav
+tags: [study], [responsive_web], [softy-pinko]
+---
+
 #### [softy pinko] JS: active nav
 
 Date: Apr 11, 2021

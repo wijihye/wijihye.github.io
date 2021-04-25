@@ -1,3 +1,9 @@
+---
+layout: post
+title: [DOM] SPA / CSR / SSR / TTV, TTI / SSG
+tags: [study], [DOM]
+---
+
 #### [DOM] SPA / CSR / SSR / TTV, TTI / SSG
 
 Date: Apr 19, 2021
