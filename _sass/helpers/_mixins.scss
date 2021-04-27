@@ -22,7 +22,7 @@
 
 // Font families
 @mixin ff--sans-serif($font-weight: normal) {
-  // 기본 폰트
+  // default font
   font-family: 'Inconsolata', 'Nanum Gothic';
   font-weight: $font-weight;
 }
