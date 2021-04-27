@@ -13,6 +13,7 @@ disqus_shortname: YourDisqusShortname
 # Build settings
 include: [_pages]
 markdown: kramdown
+asset_url: /assets # icon이나 png등의 요소들
 permalink: /:year/:month/:title
 sass:
   style: compressed
