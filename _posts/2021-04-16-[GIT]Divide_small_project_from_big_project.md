@@ -18,7 +18,7 @@ Date: Apr 16, 2021
 
 2. 분리하고자 하는 가장 큰 프로젝트의 root로 감.
 
-   cd [root]
+   `cd [root]`
 
 3. 서브 프로젝트 분리
 
@@ -26,25 +26,25 @@ Date: Apr 16, 2021
 
 4. 디렉토리 만들고 이동
 
-   mkdir [경로 + 폴더이름] && [경로 + 폴더이름]
+   `mkdir [경로 + 폴더이름] && [경로 + 폴더이름]`
 
 5. 깃 초기화
 
-   git init
+   `git init`
 
 6. 생성한 브랜치 복사하기
 
-   git pull [생성한 브랜치 이름(위에서 만든 것)]
+   `git pull [생성한 브랜치 이름(위에서 만든 것)]`
 
 7. 원격 저장소 연결 후 push
 
-   git remote add origin [새 repo 주소]
+   `git remote add origin [새 repo 주소]`
 
-   git push -u origin main
+   `git push -u origin main`
 
 8. 큰 프로젝트에서 서브 디렉토리 삭제하기 (삭제 이력 남음)
 
-   git rm -rf [디렉토리]
+   `git rm -rf [디렉토리]`
 
 9. 참고 사이트:
 
