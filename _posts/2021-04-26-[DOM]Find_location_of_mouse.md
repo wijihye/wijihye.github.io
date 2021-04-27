@@ -123,18 +123,20 @@ Date: 2021-04-26
 
 ### Teacher's solution
 
-1.  div들을 absolute로 주고 left와 top을 이용하여 위치를 계속 변경함.
+1. div들을 absolute로 주고 left와 top을 이용하여 위치를 계속 변경함.
 
-    ```jsx
-    ...
-    vertical.style.left = `${x}px`;
-    horizontal.style.top = `${y}px`;
-
-    target.style.left = `${x}px`;
-    target.style.top = `${y}px`;
-    // tag도 마찬가지로 진행.
-    ...
-    ```
+   ```jsx
+   ...
+   vertical.style.left = `${x}px`;
+   horizontal.style.top = `${y}px`;
+   
+   target.style.left = `${x}px`;
+   target.style.top = `${y}px`;
+   // tag도 마찬가지로 진행.
+   ...
+   
+   // => 나중에 Critical Rendering Path 배우고 translate으로 변경함.
+   ```
 
 2.  innerText 대신 innerHTML 사용
 
@@ -142,13 +144,34 @@ Date: 2021-04-26
 
     - <span style="background-color:yellow; color:black;">innerHTML</span>은 HTML 태그를 포함한 string을 설정할 수 있음. => HTML요소도 추가 가능하다!
 
-      ```html
-      Teacher's comment: 보안상의 문제는 innerHTML에서 XSS(Cross Site Scripting)
-      attack 보안 문제가 있는데 이는 사용자에게 입력을 받아온 데이터를
-      innerHTML로 설정할 경우 문제가 되어요. 즉 임의의 사용자가 input을 통해서
-      script를 포함한 텍스트를 입력해서 공격을 할 수 있죠 :)
-      ```
+        ```html
+        Teacher's comment: 보안상의 문제는 innerHTML에서 XSS(Cross Site Scripting)
+        attack 보안 문제가 있는데 이는 사용자에게 입력을 받아온 데이터를
+        innerHTML로 설정할 경우 문제가 되어요. 즉 임의의 사용자가 input을 통해서
+        script를 포함한 텍스트를 입력해서 공격을 할 수 있죠 :)
+        ```
+    
+3. JS, CSS를 모두 나누어서 HTML에 link하는 방식으로 진행.
 
+   - defer 속성을 이용하여 script를 포함한다면 target이미지가 로딩되지 않아서 에러가 나는경우가 있음.
+
+     ```jsx
+     ...
+     addEventListener('load', ()=>{
+         // load 이벤트를 통해 모든 요소(이미지 등)가 모두 load 된 후에 실행할 코드
+         
+         const targetRect = target.getBoundingClientRect();
+         const targetHalfWidth = targetRect.width / 2;
+         const targetHalfHeight = targetRect.height / 2;
+         // css에서 이미지 반 정도의 width, height을 정적으로 지정하여 위치를 만들지 않고
+         // Rect 객체를 이용하여 동적으로 위치를 변경함.
+         
+         document.addEventListener('mousemove', event => {
+             ...
+         })
+     });
+     ...
+     ```
 ---
 
 ### Thinking
