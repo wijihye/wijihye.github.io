@@ -6,7 +6,7 @@ permalink: /list/
 
 # You can search posts by these tags.
 
-### &nbsp;&nbsp; <span style="color:#8f9bff">study, dom, git, thisis</span>
+### &nbsp;&nbsp; <span style="color:#8f9bff">study, dom, git, thisis, responsive_web</span>
 
 ---
 

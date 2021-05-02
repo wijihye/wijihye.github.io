@@ -6,7 +6,7 @@ tags: [study, dom, document_object_model, shopping_list]
 
 #### [DOM] 간단한 Shopping List 만들기 (HTML && CSS)
 
-Date: Apr, 30 2021
+Date: Apr 30, 2021
 
 ### GitHub Repository
 
