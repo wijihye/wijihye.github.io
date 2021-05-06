@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[thisis] 14기 스터디 준비'
+title: '[thisis] 14기 스터디 준비 - 1주차, 2주차'
 tags: [work, thisis]
 ---
 
@@ -8,6 +8,15 @@ tags: [work, thisis]
 
 Date: Mar 28, 2021
 
-1 ~ 2 주차
+1주차
 
-[https://www.notion.so/server-study2-14-5804ec0d949345e297a0ec85fa6e7bdd](https://www.notion.so/server-study2-14-5804ec0d949345e297a0ec85fa6e7bdd)
+- 디스이즈 소개 및 HTML 기초  
+  [https://www.notion.so/HTML-ce4f97fd502842a9b13e39f6d442e4bf](https://www.notion.so/HTML-ce4f97fd502842a9b13e39f6d442e4bf)
+
+- Database 기초 설명  
+  [https://www.notion.so/Database-654084f60dd647f2963ae8f70625ba61](https://www.notion.so/Database-654084f60dd647f2963ae8f70625ba61)
+
+2주차
+
+- Python 기초 1  
+  [https://www.notion.so/Python-1-208e02f3eb6241b1ac474a5abdfa22df](https://www.notion.so/Python-1-208e02f3eb6241b1ac474a5abdfa22df)
