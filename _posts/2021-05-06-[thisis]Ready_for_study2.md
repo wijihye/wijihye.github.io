@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[thisis] 14기 스터디 준비'
+title: '[thisis] 14기 스터디 준비 - 3주차'
 tags: [work, thisis]
 ---
 
