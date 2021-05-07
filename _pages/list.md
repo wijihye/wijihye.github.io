@@ -6,7 +6,7 @@ permalink: /list/
 
 # You can search posts by these tags.
 
-### &nbsp;&nbsp; <span style="color:#8f9bff">study, dom, git, thisis, responsive_web, memo</span>
+### &nbsp;&nbsp; <span style="color:#8f9bff">study, dom, git, thisis, responsive_web, memo, react_native</span>
 
 ---
 
@@ -31,4 +31,5 @@ permalink: /list/
 This is a student's programming club in my college.
 I've done parsing website for my college and made json file using these data. And then, my team send jsons to team React Native.
 
-&nbsp;&nbsp;&nbsp;&nbsp; **I've been doing mentor at this club.** [show details -notion](https://www.notion.so/server-study2-14-5804ec0d949345e297a0ec85fa6e7bdd)
+&nbsp;&nbsp;&nbsp;&nbsp; **I've been doing mentor at this club.**  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - [show details -notion(Written in Korean)](https://www.notion.so/server-study2-14-5804ec0d949345e297a0ec85fa6e7bdd)
