@@ -17,3 +17,8 @@ permalink: /caution/
    - tags: [태그1, 태그2, ...]
 
 3. <span style="background-color:salmon; color:white; font-weight:700">3. 검색은 tag, title로</span>
+
+4. <span style="background-color:salmon; color:white; font-weight:700">로컬에서 실행하기</span>
+
+   - bundle exec jekyll serve
+   - localhost:4000
