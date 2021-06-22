@@ -6,7 +6,7 @@ permalink: /list/
 
 # You can search posts by these tags.
 
-### &nbsp;&nbsp; <span style="color:#8f9bff">study, dom, git, thisis, responsive_web, memo, react_native, work, database, db</span>
+### &nbsp;&nbsp; <span style="color:#8f9bff">study, dom, git, thisis, responsive_web, memo, react_native, work, database, db, server</span>
 
 ---
 
@@ -28,7 +28,7 @@ permalink: /list/
 
 ### &nbsp; - [thisis]:
 
-This is a student's programming club in my college.
+This is a student's programming club in my university.
 I've done parsing website for my college and made json file using these data. And then, my team send jsons to team React Native.
 
 &nbsp;&nbsp;&nbsp;&nbsp; **I've been doing mentor at this club.**  
