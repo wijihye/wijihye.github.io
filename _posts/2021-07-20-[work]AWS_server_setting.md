@@ -26,10 +26,10 @@ tags: [work, server, aws]
    1. sudo apt-get update
    2. apt-get install apache2
    ```
-
-   -> 21-07-20: 도메인 설정 후 15시간 정도밖에 지나지 않아서 그런가 SSL(Xshell) 및 SFTP(Filezilla)는 접속이 되고, apache2도 정상적으로 동작하는 것 같은데 막상 홈페이지에서 연결은 안된다 ㅠㅠㅠ
-
-   
+    -> <strong>21-07-20:</strong> 도메인 설정 후 15시간 정도밖에 지나지 않아서 그런가 SSL(Xshell) 및 SFTP(Filezilla)는 접속이 되고, apache2도 정상적으로 동작하는 것 같은데 막상 홈페이지에서 연결은 안된다 ㅠㅠㅠ
+    <br>
+    -> <strong>21-07-21:</strong> 도메인 네임서버를 잘못 연결함. 맨 끝의 .까지 같이 등록하니까 안됐던 것. 이후로는 문제없이 잘 됨.
+    <br>
 
 2. root 사용자 비밀번호 만들고 기본 설정하기
 
@@ -82,7 +82,7 @@ tags: [work, server, aws]
        Options ExecCGI
        </Directory>
        
-       붙여넣고 esc로 편집을 마친 후 :wq로 저장하고 빠져나오기.
+       직접 치고 esc로 편집을 마친 후 :wq로 저장하고 빠져나오기.
    3. sudo service apache2 restart
    4. python3 -V
    5. sudo apt-get install python3-pip
@@ -106,3 +106,10 @@ tags: [work, server, aws]
       - SET PASSWORD FOR 'root'@'localhost' = PASSWORD('new_password');
       - FLUSH PRIVILEGES;
       ```
+
+6. 만약 service apache2 restart가 제대로 작동하지 않는다면
+    ```
+    4번에서 편집기를 이용해 친 내용을 붙여넣기하게 되면 운영체제 간에
+    특수문자를 표시하는 방법이 달라서 그럴 수 있으니 붙여넣기 말고 직접
+    쳐서 하기. -> 후에 다시 restart 해보고 service apache2 status
+    ```
